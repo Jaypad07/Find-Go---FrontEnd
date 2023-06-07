@@ -1,0 +1,8 @@
+// config.js.example
+const config = {
+  apiKey: 'INSERT_API_KEY_HERE'
+};
+
+module.exports = config;
+
+Developers can make a copy of config.js.example, rename it to config.js, and replace 'INSERT_API_KEY_HERE' with their actual API key.

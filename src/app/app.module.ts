@@ -10,11 +10,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreListingComponent } from './store-listing/store-listing.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MapComponent } from './map/map.component';
+import { GoogleMapsModule } from '@angular/google-maps'
+
 
 const routes: Routes = [
   { path: '', component: StoreListingComponent }, // Default route
   { path: 'register', component: RegisterUserComponent },
   { path: 'login', component: LoginPageComponent },
+  { path: 'map', component: MapComponent }
   
 ];
 
@@ -24,10 +28,12 @@ const routes: Routes = [
     SearchComponent,
     RegisterUserComponent,
     LoginPageComponent,
-    StoreListingComponent
+    StoreListingComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
+    GoogleMapsModule,
     RouterModule.forRoot(routes),
     NgbModule,
     FormsModule,

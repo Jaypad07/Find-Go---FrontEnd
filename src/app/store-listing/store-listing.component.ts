@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Store } from '../models/store.models';
 import { ApiService } from '../api.service';
 
@@ -7,6 +7,15 @@ import { ApiService } from '../api.service';
   templateUrl: './store-listing.component.html',
   styleUrls: ['./store-listing.component.css']
 })
-export class StoreListingComponent {
-  stores: Store[] = [];
+export class StoreListingComponent implements OnInit {
+  storeList: Store[] = [];
+  
+  constructor(private apiService: ApiService) { }
+
+  ngOnInit() {
+    this.apiService.getStores()
+    .subscribe((stores: any) => {this.storeList = stores
+      console.log(stores);});
+   
+  }
 }
