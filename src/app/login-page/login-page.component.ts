@@ -20,7 +20,7 @@ export class LoginPageComponent {
     this.apiService.postLogin(this.loginCredentials)
     .subscribe( (data: any) => { 
      localStorage.setItem("JWTtoken", data.message) 
-    //  console.log(data.message);
+     console.log(data.message);
     } ) 
   }
 }
