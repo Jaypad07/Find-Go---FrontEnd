@@ -1,0 +1,20 @@
+<div class=" login-container">
+    <div class=" row align-items-center justify-content-center vh-100">
+      <form (ngSubmit)="onRegister()" class=" log col-md-2">
+        <h2>Register</h2>
+        <div class="mb-3">
+            <label for="userName-form" class="form-label"><b class="small">Username:</b></label>
+            <input type="text" name="register-userName" [(ngModel)]="registerUser.userName" class="form-control" id="username-form" placeholder="Username">
+          </div>
+        <div class="mb-3">
+          <label for="register-email-form" class="form-label"><b class="small">Email:</b></label>
+          <input type="email" name="register-email" [(ngModel)]="registerUser.email" class="form-control" id="register-email-form" placeholder="name@findGo.com">
+        </div>
+        <div class="mb-2">
+          <label for="register-password-form" class="form-label"><b class="small">Password:</b></label>
+          <input class="form-control" type="password" name="register-password" [(ngModel)]="registerUser.password" id="register-password-form" placeholder="Password">
+          <button class="register-button" type="submit">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
