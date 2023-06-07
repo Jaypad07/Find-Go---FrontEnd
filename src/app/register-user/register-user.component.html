@@ -1,13 +1,13 @@
  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
+      <div class="text-center text-lg-start ">
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
-        <form (ngSubmit)="onRegister()" class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+        <form (ngSubmit)="onRegister()" class="justify-content-center p-4 p-md-5 border rounded-3 bg-body-tertiary">
             <h2>Register</h2>
-            <div class="mb-3">
-              <label for="userName-form" class="form-label">Username:</label>
+            <div class="form-floating mb-3">
               <input type="text" name="register-userName" [(ngModel)]="registerUser.userName" class="form-control" id="username-form" placeholder="Username">
+              <label for="userName-form" class="form-label">Username:</label>
             </div>
             <div class="form-floating mb-3">
               <input type="email" name="register-email" [(ngModel)]="registerUser.email" class="form-control" id="register-email-form" placeholder="name@findGo.com">
