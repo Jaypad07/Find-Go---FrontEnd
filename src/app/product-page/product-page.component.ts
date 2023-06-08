@@ -13,7 +13,7 @@ export class ProductPageComponent {
   constructor(private apiService: ApiService) { }
 
   ngOnInit() {
-    this.apiService.getStores()
+    this.apiService.getProducts()
     .subscribe((products: any) => {this.productList = products
       console.log(products);});
   }
