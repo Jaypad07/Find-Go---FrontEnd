@@ -18,19 +18,3 @@ export class StoreListingComponent implements OnInit {
       console.log(stores);});
   }
 }
-
-// storeList: any;
-// store: any;
-// constructor(private routes:ActivatedRoute, private apiService: ApiService) { }
-
-// ngOnInit() {
-
-//   this.storeList = this.apiService.getStores();
-//   this.routes.paramMap.subscribe(params => {
-//   this.apiService.getStores()
-//   .subscribe((data: any) => {
-//     let paramId: string = params.get('id') || ""
-//     this.store = data.find((store:any) => store.id === parseInt(paramId))
-//     ;});
-// })
-// }

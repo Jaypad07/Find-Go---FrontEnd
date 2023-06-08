@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'stores', component: StoreListingComponent }, // Default route
   { path: 'register', component: RegisterUserComponent },
   { path: 'login', component: LoginPageComponent },
-  { path: 'stores/:storeId/storeproducts', component: ProductPageComponent }
+  { path: 'stores/:id/products', component: ProductPageComponent }
   
 ];
 
