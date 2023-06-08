@@ -11,7 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { StoreListingComponent } from './store-listing/store-listing.component';
 import { RouterModule, Routes } from '@angular/router';
 import { MapComponent } from './map/map.component';
-import { GoogleMapsModule } from '@angular/google-maps'
+import { GoogleMapsModule } from '@angular/google-maps';
+import { ProductPageComponent } from './product-page/product-page.component';
+import { HeaderComponent } from './header/header.component'
 
 
 const routes: Routes = [
@@ -29,7 +31,9 @@ const routes: Routes = [
     RegisterUserComponent,
     LoginPageComponent,
     StoreListingComponent,
-    MapComponent
+    MapComponent,
+    ProductPageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

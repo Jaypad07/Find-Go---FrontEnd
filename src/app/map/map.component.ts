@@ -1,16 +1,18 @@
 import { Component } from '@angular/core';
 import { config } from '../config';
 
+
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
 export class MapComponent {
-  apiKey: string;
+  apiKey: string = config.apiKey;
 
   constructor() {
-    this.apiKey = config.apiKey;
   }
+
+  
 }
 

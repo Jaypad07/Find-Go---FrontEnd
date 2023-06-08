@@ -1,7 +1,8 @@
 export interface Store {
     storeName: string;
+    address: string;
     description: string;
-    city: string;
-    map: string;
+    floorplan: string;    
+    storeImg: string;
     storeSections: any[];
 }
