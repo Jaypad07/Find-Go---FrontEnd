@@ -22,13 +22,18 @@ export class ApiService {
     return this.http.get('http://localhost:8080/api/stores');
   }
 
-  getStore(id: string) {
-    return this.http.get(`http://localhost:8080/api/stores/${id}`);
+  getStore(id: number) {
+    return this.http.get(`http://localhost:8080/api/stores/storeId/${id}`);
   }
 
   getProducts() { 
     return this.http.get('http://localhost:8080/api/products');
   }
+
+  getStoreById(id: number) {
+    return this.http.get(`http://localhost:8080/api/stores/${id}`);
+  }
+    
 
   getAllUsers() {
     const JWTtoken = localStorage.getItem('jwttoken');
