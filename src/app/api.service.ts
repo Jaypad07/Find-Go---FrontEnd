@@ -26,6 +26,10 @@ export class ApiService {
     return this.http.get(`http://localhost:8080/api/stores/${id}`);
   }
 
+  getProducts() { 
+    return this.http.get('http://localhost:8080/api/products');
+  }
+
   getAllUsers() {
     const JWTtoken = localStorage.getItem('jwttoken');
     const headers = new HttpHeaders().set('Authorization', `Bearer ${JWTtoken}`);

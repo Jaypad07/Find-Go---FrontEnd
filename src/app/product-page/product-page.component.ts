@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Product } from '../models/product.models';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-product-page',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-page.component.css']
 })
 export class ProductPageComponent {
+  productList: Product[] = [];
+  
+  constructor(private apiService: ApiService) { }
 
+  ngOnInit() {
+    this.apiService.getStores()
+    .subscribe((product: any) => {this.productList = product
+      console.log(product);});
+  }
 }
