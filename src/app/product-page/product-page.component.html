@@ -99,12 +99,15 @@
 <div class="b-example-divider"></div> -->
 
 
+<div class="d-flex justify-content-start">
+  <div *ngFor="let product of productList">
+
 
   <div class="card" style="width: 18rem;">
-    <img src="/src/assets/CVS.jpeg" class="card-img-top" alt="...">
+    <img src={{product.productImg}} class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">{{product.productName}}</h5>
+      <p class="card-text">{{product.description}}</p>
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">An item</li>
@@ -116,3 +119,6 @@
       <a href="#" class="card-link">Similar Items</a>
     </div>
   </div>
+</div>
+</div>
+  

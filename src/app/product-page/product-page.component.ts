@@ -14,7 +14,7 @@ export class ProductPageComponent {
 
   ngOnInit() {
     this.apiService.getStores()
-    .subscribe((product: any) => {this.productList = product
-      console.log(product);});
+    .subscribe((products: any) => {this.productList = products
+      console.log(products);});
   }
 }
