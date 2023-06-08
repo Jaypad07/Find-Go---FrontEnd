@@ -17,10 +17,10 @@ import { HeaderComponent } from './header/header.component'
 
 
 const routes: Routes = [
-  { path: '', component: StoreListingComponent }, // Default route
+  { path: 'stores', component: StoreListingComponent }, // Default route
   { path: 'register', component: RegisterUserComponent },
   { path: 'login', component: LoginPageComponent },
-  { path: 'map', component: MapComponent }
+  { path: 'stores/:storeId/storeproducts', component: ProductPageComponent }
   
 ];
 
