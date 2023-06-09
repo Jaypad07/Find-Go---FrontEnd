@@ -56,3 +56,17 @@ This command will compile the project's source code and generate the necessary b
 
 ng serve
 This command will start the application on a local development server. Open your web browser and visit http://localhost:4200 to view the running application.
+
+
+## Roadmap
+
+- Expand inventory offerings across different stores.
+- Enhance the visual appeal with the addition of the Nunito font.
+- Complete and refine the About Me section to provide comprehensive information.
+- Develop a dedicated Category page for easy navigation and browsing.
+- Implement an interactive carousel of horizontal cards for a seamless browsing experience in the Similar Items section.
+- Ensure accurate and dynamic rendering of sections in the Sections List.
+- Enhance user experience by intelligently filtering and displaying search results in real-time. Cards will dissappear filtering based off your search input.
+- Introduce dedicated Manager and Admin pages with advanced functionalities, including store and section management, user deletion, and role modifications.
+- Implement a secure login and membership system for all users.
+- Extend platform support to Android devices for wider accessibility and convenience.
