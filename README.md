@@ -9,7 +9,7 @@
 * [Contributing](#contributing)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-![FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
+![FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GOTransparent.png)
 
 
 
