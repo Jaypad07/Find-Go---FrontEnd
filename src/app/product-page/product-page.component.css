@@ -11,3 +11,25 @@
     width: 240px;
     height: 200px;
 }
+
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+img {
+    margin-top: 15px;
+}
+
+.lower-body {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+.navbar {
+    
+}
