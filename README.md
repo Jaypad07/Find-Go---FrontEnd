@@ -30,6 +30,7 @@ Find & Go is designed to help you get in and out of stores as quickly as possibl
 
 ![MainPic](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
 
+
 ## Technologies
 * [Git Bash](https://gitforwindows.org/) - to traverse the file system, execute system functions, and to interact with my GitHub repository.
 * [Visual Studio Code](https://code.visualstudio.com/) - to write code in Html, CSS, and Java Script.
