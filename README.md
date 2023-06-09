@@ -8,8 +8,8 @@
 * [Acknowledgements](Acknowledgements)
 * [Contributing](Contributing)
 
-[FastShoppingCart](/assets/Find&GO(2).png)
-[MainPic](/assets/Find&GO-ReadmeImg2.png)
+[FastShoppingCart] (https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
+[MainPic] (https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
 
 
 ## Find & Go
@@ -18,13 +18,13 @@ Find & Go is a fast and efficient item-finding application designed for those ur
 
 ## Features
 
-## Store Locator: 
+- Store Locator: 
 No need to waste time asking for directions or wandering aimlessly in the store. Find & Go uses your current location to find the nearest stores that have the item you're looking for.
 
-## Quick Search: 
+- Quick Search: 
 Find & Go allows you to search for specific items using its powerful search filter. Simply enter the item you need, and the app will provide step-by-step directions to the exact section or location where your desired item is located. Say goodbye to confusion and wasted time.
 
-## Time-Saving Solution: 
+- Time-Saving Solution: 
 Find & Go is designed to help you get in and out of stores as quickly as possible. No more waiting in line at information desks or searching through aisles. With Find & Go, you can find what you need and be on your way in no time.
 
 ## Technologies
