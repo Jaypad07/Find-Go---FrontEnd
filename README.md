@@ -70,3 +70,25 @@ This command will start the application on a local development server. Open your
 - Introduce dedicated Manager and Admin pages with advanced functionalities, including store and section management, user deletion, and role modifications.
 - Implement a secure login and membership system for all users.
 - Extend platform support to Android devices for wider accessibility and convenience.
+
+
+## Acknowledgements
+
+- Kevin Barrios
+- Kim Nguyen
+- Maksym Zinchenko
+- Lorena Rojas
+- Obinna Umerah
+- Druhbo Chowdhury
+- Suresh Sigera
+- Dhrubo Chowdhury
+- Leonardo Rodriguez
+
+
+
+## Contributing
+
+Contributions to the Find & Go project are always welcome!
+
+Send me a message and let's get started.
+
