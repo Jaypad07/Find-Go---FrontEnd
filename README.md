@@ -1,7 +1,6 @@
 # Table of Contents
 * [Find & GO](#description)
 * [Features](#features)
-* [StoreLocator](#storeLocator)
 * [Technologies](#technologies)
 * [Installation](#installation)
 * [Roadmap](#roadmap)
