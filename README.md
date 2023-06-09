@@ -1,5 +1,9 @@
 # Table of Contents
-* [Description](Find & Go)
+* [Find & GO](Description)
+* [Features](Features)
+* [StoreLocator](StoreLocator)
+
+[FastShoppingCart](/assets/Find&GO(2).png)
 
 
 
