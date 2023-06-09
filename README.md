@@ -4,6 +4,8 @@
 * [StoreLocator](StoreLocator)
 
 [FastShoppingCart](/assets/Find&GO(2).png)
+[MainPic](/assets/Find&GO-ReadmeImg2.png)
+
 
 
 
@@ -16,7 +18,7 @@ Find & Go is a fast and efficient item-finding application designed for those ur
 ## Store Locator: 
 No need to waste time asking for directions or wandering aimlessly in the store. Find & Go uses your current location to find the nearest stores that have the item you're looking for.
 
-##Quick Search: 
+## Quick Search: 
 Find & Go allows you to search for specific items using its powerful search filter. Simply enter the item you need, and the app will provide step-by-step directions to the exact section or location where your desired item is located. Say goodbye to confusion and wasted time.
 
 ## Time-Saving Solution: 
@@ -28,3 +30,29 @@ Find & Go is designed to help you get in and out of stores as quickly as possibl
 * [ShareX](https://getsharex.com/downloads) - image capture program to take preview snapshots for this Readme.doc.
 * [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Bootstrap is a popular open-source framework that provides a collection of pre-built CSS styles and JavaScript components.
 * [GitHub](https://github.com/) The hosting service for the remote repository, used for version control and branch management.
+
+
+## Installation
+
+1. Clone the Repository: Start by cloning the Find & Go repository to your local machine. Open your command line interface and run the following command:
+
+git clone https://github.com/Jaypad07/Find-Go-Angular.git
+
+2. Navigate to the Project Directory: Once the cloning process is complete, navigate to the project directory using the cd command:
+
+cd Find-Go-Angular
+
+3. Install Dependencies: Next, install the project dependencies. Usually, an Angular project utilizes npm (Node Package Manager) for managing dependencies. Run the following command to install the dependencies:
+
+npm install
+This command will read the package.json file and download all the necessary dependencies listed in it.
+
+4. Build the Project: Once the dependencies are installed, you may need to build the project. In Angular projects, you can use the Angular CLI (Command Line Interface) to build the application. Run the following command:
+
+ng build
+This command will compile the project's source code and generate the necessary build artifacts.
+
+5. Start the Application: After the project is built, you can start the application. Use the following command to start the development server:
+
+ng serve
+This command will start the application on a local development server. Open your web browser and visit http://localhost:4200 to view the running application.
