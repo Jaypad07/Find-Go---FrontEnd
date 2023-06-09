@@ -1,5 +1,5 @@
 <app-search></app-search>
-<div class="container">
+<div *ngIf="productList" class="container">
   <div class="row">
     <div class="col-md-4" *ngFor="let product of productList">
       <div class="card mb-4">
@@ -17,8 +17,8 @@
           <li class="list-group-item">Quantity: {{product.quantity}}</li>
         </ul>
         <div class="lower-body">
-          <a href="#" class="card-link">Item Location</a>
-          <a href="stores/{{product.category}}/" class="card-link">Similar Items</a>
+          <a routerLink="/products/{{product.productName}}" class="card-link">Item Location</a>
+          <a routerLink="/stores/{{product.category}}" class="card-link">Similar Items</a>
         </div>
       </div>
     </div>

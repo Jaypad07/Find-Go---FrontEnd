@@ -1,24 +1,67 @@
-<!-- <div class="container">
+<div class="container" *ngIf="currentProduct">
     <div class="row">
-        <div class="col-md-4" *ngFor="let product of productList">
-            <div class="card mb-4">
-                <div class="card-cont">
-                    <img [src]="product.productImg" class="card-img-top mx-auto d-block" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">{{product.productName}}</h5>
-                        <p class="card-text">{{product.description}}</p>
-                    </div>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">${{product.price}}</li>
-                    <li class="list-group-item">{{product.category}}</li>
-                    <li class="list-group-item">Quantity: {{product.quantity}}</li>
-                </ul>
-                <div class="lower-body">
-                    <a href="#" class="card-link">Item Location</a>
-                    <a href="stores/{{product.category}}/" class="card-link">Similar Items</a>
-                </div>
+      <div class="col-lg-6">
+        <div class="card d-flex align-items-center" style="width: 25rem;">
+          <img src="{{currentProduct.productImg}}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{ currentProduct.productName }}</h5>
+            <p class="card-text">{{currentProduct.description}}</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{currentProduct.category}}</li>
+              <li class="list-group-item">{{currentProduct.price}}</li>
+              <li class="list-group-item">Quantity: {{currentProduct.quantity}}</li>
+            </ul>
+            <div class="card-body">
             </div>
+          </div>
         </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="px-4 text-center border-bottom">
+          <h1 class="display-4 fw-bold text-body-emphasis">Locate Item</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4"></p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <!-- Additional content here -->
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 80vh;">
+            <div class="container px-5">
+              <img src="/assets/targetFloorPlan.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div> -->
+  </div>
+  
+  
+
+
+
+<!-- <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div> -->
