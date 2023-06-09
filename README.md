@@ -2,11 +2,14 @@
 * [Find & GO](Description)
 * [Features](Features)
 * [StoreLocator](StoreLocator)
+* [Technologies](Technologies)
+* [Installation](Installation)
+* [Roadmap](Roadmap)
+* [Acknowledgements](Acknowledgements)
+* [Contributing](Contributing)
 
 [FastShoppingCart](/assets/Find&GO(2).png)
 [MainPic](/assets/Find&GO-ReadmeImg2.png)
-
-
 
 
 ## Find & Go
@@ -72,17 +75,17 @@ This command will start the application on a local development server. Open your
 - Extend platform support to Android devices for wider accessibility and convenience.
 
 
+
 ## Acknowledgements
 
-- Kevin Barrios
-- Kim Nguyen
-- Maksym Zinchenko
-- Lorena Rojas
+- [Kevin Barrios](https://github.com/dayjyun)
+- [Kim Nguyen](https://github.com/knnguyen2410)
+- [Maksym Zinchenko](https://github.com/maklaut007)
 - Obinna Umerah
-- Druhbo Chowdhury
-- Suresh Sigera
+- [Lorena Rojas](https://github.com/lrojas4)
+- [Suresh Sigera](https://github.com/sureshmelvinsigera)
 - Dhrubo Chowdhury
-- Leonardo Rodriguez
+- [Leonardo Rodriguez](https://github.com/LRodriguez92)
 
 
 
