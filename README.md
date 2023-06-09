@@ -1,15 +1,16 @@
 # Table of Contents
-* [Find & GO](Description)
-* [Features](Features)
-* [StoreLocator](StoreLocator)
-* [Technologies](Technologies)
-* [Installation](Installation)
-* [Roadmap](Roadmap)
-* [Acknowledgements](Acknowledgements)
-* [Contributing](Contributing)
+* [Find & GO](#description)
+* [Features](#features)
+* [StoreLocator](#storeLocator)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Roadmap](#roadmap)
+* [Acknowledgements](#acknowledgements)
+* [Contributing](#contributing)
 
-[FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
-[MainPic](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+![FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
+
 
 
 ## Find & Go
@@ -27,12 +28,15 @@ Find & Go allows you to search for specific items using its powerful search filt
 - Time-Saving Solution: 
 Find & Go is designed to help you get in and out of stores as quickly as possible. No more waiting in line at information desks or searching through aisles. With Find & Go, you can find what you need and be on your way in no time.
 
+![MainPic](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
+
 ## Technologies
 * [Git Bash](https://gitforwindows.org/) - to traverse the file system, execute system functions, and to interact with my GitHub repository.
 * [Visual Studio Code](https://code.visualstudio.com/) - to write code in Html, CSS, and Java Script.
 * [ShareX](https://getsharex.com/downloads) - image capture program to take preview snapshots for this Readme.doc.
 * [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Bootstrap is a popular open-source framework that provides a collection of pre-built CSS styles and JavaScript components.
 * [GitHub](https://github.com/) The hosting service for the remote repository, used for version control and branch management.
+* [Cava] (https://www.canva.com/design/) Allows design and animation of images / logos.
 
 
 ## Installation
