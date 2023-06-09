@@ -8,8 +8,8 @@
 * [Acknowledgements](Acknowledgements)
 * [Contributing](Contributing)
 
-[FastShoppingCart] (https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
-[MainPic] (https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
+[FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
+[MainPic](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find%26GO-ReadmeImg2.png)
 
 
 ## Find & Go
