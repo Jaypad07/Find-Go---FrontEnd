@@ -11,16 +11,18 @@ import { Store } from '../models/store.models';
 export class ProductPageComponent {
   productList: Product[] = [];
   sectionList: Store[] = [];
-  
+
   constructor(private apiService: ApiService) { }
 
   ngOnInit() {
     this.apiService.getStoreById(1)
-    .subscribe((data: any) => {this.sectionList = data.storeSections;
-       console.log(data);});
+      .subscribe((data: any) => {
+        this.sectionList = data.storeSections;
+      });
 
     this.apiService.getProducts()
-    .subscribe((products: any) => {this.productList = products
-      console.log(products);});
+      .subscribe((products: any) => {
+        this.productList = products
+      });
   }
 }

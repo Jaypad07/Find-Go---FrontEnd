@@ -10,10 +10,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StoreListingComponent } from './store-listing/store-listing.component';
 import { RouterModule, Routes } from '@angular/router';
-import { MapComponent } from './map/map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { HeaderComponent } from './header/header.component'
+import { HeaderComponent } from './header/header.component';
+import { LocateProductComponent } from './locate-product/locate-product.component';
 
 
 const routes: Routes = [
@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterUserComponent },
   { path: 'login', component: LoginPageComponent },
   { path: 'stores/:id/products', component: ProductPageComponent },
+  { path: 'products/:productName', component: LocateProductComponent },
   // { path: 'About'}
   
 ];
@@ -32,9 +33,9 @@ const routes: Routes = [
     RegisterUserComponent,
     LoginPageComponent,
     StoreListingComponent,
-    MapComponent,
     ProductPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    LocateProductComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +45,7 @@ const routes: Routes = [
     FormsModule,
     HttpClientModule,
   ],
+  exports: [SearchComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
