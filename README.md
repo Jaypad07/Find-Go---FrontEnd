@@ -36,7 +36,7 @@ Find & Go is designed to help you get in and out of stores as quickly as possibl
 * [ShareX](https://getsharex.com/downloads) - image capture program to take preview snapshots for this Readme.doc.
 * [BootStrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - Bootstrap is a popular open-source framework that provides a collection of pre-built CSS styles and JavaScript components.
 * [GitHub](https://github.com/) The hosting service for the remote repository, used for version control and branch management.
-* [Cava] (https://www.canva.com/design/) Allows design and animation of images / logos.
+* [Cava](https://www.canva.com/design/) Allows design and animation of images / logos.
 
 
 ## Installation
