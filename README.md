@@ -1,12 +1,12 @@
 # Table of Contents
-* [Find & GO](Description)
-* [Features](Features)
-* [StoreLocator](StoreLocator)
-* [Technologies](Technologies)
-* [Installation](Installation)
-* [Roadmap](Roadmap)
-* [Acknowledgements](Acknowledgements)
-* [Contributing](Contributing)
+* [Find & GO](#description)
+* [Features](#features)
+* [StoreLocator](#storeLocator)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Roadmap](#roadmap)
+* [Acknowledgements](#acknowledgements)
+* [Contributing](#contributing)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![FastShoppingCart](https://github.com/Jaypad07/Find-Go-Angular/blob/main/src/assets/Find&GO(2).png?raw=true)
