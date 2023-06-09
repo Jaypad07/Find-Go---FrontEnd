@@ -11,3 +11,6 @@ Find & Go is a fast and efficient item-finding application designed for those ur
 
 #### Store Locator: 
 No need to waste time asking for directions or wandering aimlessly in the store. Find & Go uses your current location to find the nearest stores that have the item you're looking for.
+
+#### Quick Search: 
+Find & Go allows you to search for specific items using its powerful search filter. Simply enter the item you need, and the app will provide step-by-step directions to the exact section or location where your desired item is located. Say goodbye to confusion and wasted time.
