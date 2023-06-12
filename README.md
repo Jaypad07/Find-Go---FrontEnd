@@ -82,6 +82,7 @@ This command will start the application on a local development server. Open your
 
 ## Acknowledgements
 
+- Valerie Padilla
 - [Kevin Barrios](https://github.com/dayjyun)
 - [Kim Nguyen](https://github.com/knnguyen2410)
 - [Maksym Zinchenko](https://github.com/maklaut007)
